@@ -53,7 +53,7 @@ Utility libraries and custom packages to be included by your Apps.
 `@ps/constants` package holds common variables. Useful to define all configuration files there.
 Also useful to define other data variables there such as theme, lists and dictionaries, 
 such as the 50 states with abbreviations, supported locales/languages, etc.  
-`@ps/fn` - universal pure functions  
+`@techytools/fn` - universal pure functions  
 `@ps/ui` - React components and styles  
 `@ps/cconsole` - alternative to console.log with <Inline as="b" textgradient="rainbow">colors</Inline> and ability to broadcast to a cloud provider  
 
@@ -70,7 +70,7 @@ such as the 50 states with abbreviations, supported locales/languages, etc.
   ...
   "@ps/cconsole": "*",
   "@ps/contants": "*",
-  "@ps/fn": "*",
+  "@techytools/fn": "*",
   "@ps/ui": "*",
   ...
 },
@@ -81,7 +81,7 @@ such as the 50 states with abbreviations, supported locales/languages, etc.
 // Requires next-transpile-modules to import files from outside its own directory
 const withTM = require('next-transpile-modules')([
   '@ps/ui',
-  '@ps/fn',
+  '@techytools/fn',
   '@ps/cconsole',
   '@ps/constants',
 ]);`} collapsed={true} ss="margin-bottom:0;" />

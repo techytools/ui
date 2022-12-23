@@ -1,4 +1,4 @@
-const withTM = require('next-transpile-modules')(['harmony-fn']);
+const withTM = require('next-transpile-modules')(['@techytools/fn']);
 const dotenvLoad = require('dotenv-load');
 const nextBuildId = require('next-build-id');
 
