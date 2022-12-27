@@ -22,7 +22,7 @@
     "strict": false,
     "baseUrl": ".",
     "paths": {
-      "@ps/ui/*": ["./*"]
+      "@techytools/ui/*": ["./*"]
     },
     "noEmit": true,
     "incremental": true,
